@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "alyson-user",
+  "alias": ["alyson-user"],
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [
+      { "src": "/.*", "dest": "/index.js" }
+  ]
+}

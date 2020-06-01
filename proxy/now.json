@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "alyson-proxy1907",
+    "alias": ["alyson-proxy1907"],
+    "routes": [
+      {"src": "/img(.*)", "methods":["GET", "POST", "PATCH", "DELETE"], "dest": "https://alyson-user.now.sh"},
+      {"src": "/login(.*)", "methods":["GET", "POST", "PATCH", "DELETE"], "dest": "https://alyson-user.now.sh"},
+        
+      {"src": "/user(.*)", "methods":["GET", "POST", "PATCH", "DELETE"], "dest": "https://alyson-user.now.sh"},
+      {"src": "/account(.*)", "methods":["GET", "POST", "PATCH", "DELETE"], "dest": "https://alyson-user.now.sh"},
+      {"src": "/categories(.*)", "methods":["GET", "POST", "PATCH", "DELETE"], "dest": "https://alyson-product.now.sh"},
+      {"src": "/products(.*)", "methods":["GET", "POST", "PATCH", "DELETE"], "dest": "https://alyson-product.now.sh"},
+       
+      {"src": "/purch", "methods":["GET", "POST"], "dest": "https://alyson-product.now.sh"},
+      {"src": "/purch/user", "methods":["GET", "POST"], "dest": "https://alyson-user.now.sh"}
+      ]
+}
