@@ -10,9 +10,10 @@ Este repositório implementa protótipos de microsserviços (um para Produtos e 
 - **Jest**: utilizado para implementar testes automatizados
 
 ## Tecnologias Específicas de cada Microsserviço
+Tecnologias e bibliotecas utilizadas especificamente em cada microsserviço
 ## Microsserviço de Produtos
 - **aws-sdk**: utilizado para acessar o serviço AWS-S3 para fazer upload de imagens
 ## Microsserviço de Usuários
-- **Bcrypt**: biblioteca utilizada para gerar hashes para as senhas dos usuários
+- **bcrypt**: biblioteca utilizada para gerar hashes para as senhas dos usuários
 - **jsonwebtoken**: gerador de tokens de autenticação de usuários
 
