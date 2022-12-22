@@ -21,7 +21,7 @@
   "homepage": "https://gitlab.com/Quik19/products#README",
   "dependencies": {
     "aws-sdk": "^2.502.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "knex": "^0.19.1",
     "micro": "^9.3.4",
     "microrouter": "^3.1.3",
